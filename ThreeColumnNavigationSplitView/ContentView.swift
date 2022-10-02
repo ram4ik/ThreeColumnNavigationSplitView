@@ -25,6 +25,7 @@ struct ContentView: View {
         } detail: {
             Text(selection ?? "Choose a data")
         }
+        .navigationSplitViewStyle(.prominentDetail)
     }
 }
 
